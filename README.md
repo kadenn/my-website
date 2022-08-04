@@ -33,4 +33,3 @@ npm run dev
 - [ ] Create header & footer components
 - [ ] Add a contact me button
 - [ ] Add a download resume button
-- [ ] Add a custom logo and assets
