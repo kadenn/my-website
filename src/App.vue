@@ -9,7 +9,10 @@ import { Head } from "@vueuse/head";
     <meta name="description" content="My personal website" />
     <meta property="og:title" content="Kagan Demirhindi" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/icon-1200×675.png" />
+    <meta property="og:image" content="/icon-1200x627.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
     <meta property="og:image:alt" content="A cute turkey cartoon" />
     <meta property="og:url" content="https://demirhindi.netlify.app/" />
     <meta property="og:description" content="My personal website" />
