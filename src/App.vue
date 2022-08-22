@@ -1,22 +1,19 @@
 <script setup>
-import { useHead } from "@vueuse/head";
-
 // https://github.com/vueuse/head
-// you can use this to manipulate the document head in any components,
-// they will be rendered correctly in the html results with vite-ssg
-useHead({
-  title: "Kagan Demirhindi",
-  meta: [{ name: "description", content: "My Personal Website" }],
-  link: [
-    {
-      rel: "icon",
-      type: "image/svg+xml",
-      href: "/icon.svg",
-    },
-  ],
-});
+import { Head } from "@vueuse/head";
 </script>
 
 <template>
+  <Head>
+    <title>Kagan Demirhindi</title>
+    <meta name="description" content="My personal website" />
+    <meta property="og:title" content="Kagan Demirhindi" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon-1200×675.png" />
+    <meta property="og:image:alt" content="A cute turkey cartoon" />
+    <meta property="og:url" content="https://demirhindi.netlify.app/" />
+    <meta property="og:description" content="My personal website" />
+    <meta property="og:site_name" content="Kagan Demirhindi" />
+  </Head>
   <RouterView />
 </template>
