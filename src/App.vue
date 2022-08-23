@@ -1,8 +1,3 @@
-<script setup>
-// https://github.com/vueuse/head
-import { Head } from "@vueuse/head";
-</script>
-
 <template>
   <Head>
     <title>Kagan Demirhindi</title>
@@ -18,5 +13,16 @@ import { Head } from "@vueuse/head";
     <meta property="og:description" content="My personal website" />
     <meta property="og:site_name" content="Kagan Demirhindi" />
   </Head>
-  <RouterView />
+
+  <div>
+    <Header />
+    <RouterView />
+  </div>
 </template>
+
+<script setup>
+// https://github.com/vueuse/head
+import { Head } from "@vueuse/head";
+import Header from "@/components/Header.vue";
+
+</script>

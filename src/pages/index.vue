@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div>
     <router-link to="/">
@@ -104,98 +102,6 @@
         </ul>
       </li>
     </ul>
-
-    <h3>Skills</h3>
-
-    <ul>
-      <li>
-        <strong>Backend:</strong>
-        <mark>Golang</mark>
-        <mark>Python</mark>
-        <mark>JavaScript</mark>
-        <mark>TypeScript</mark>
-        <mark>NodeJS</mark>
-        <mark>ExpressJS</mark>
-        <mark>Firebase</mark>
-        <mark>Postman</mark>
-        <mark>OpenAPI</mark>
-        <mark>Java</mark>
-        <mark>C#</mark>
-        <mark>gRPC</mark>
-        <mark>GraphQL</mark>
-      </li>
-
-      <li>
-        <strong>Database:</strong>
-        <mark>PostgreSQL</mark>
-        <mark>CockroachDB</mark>
-        <mark>Elastic Search</mark>
-        <mark>MongoDB</mark>
-        <mark>SQL</mark>
-      </li>
-
-      <li>
-        <strong>Frontend:</strong>
-        <mark>TypeScript</mark>
-        <mark>JavaScript</mark>
-        <mark>ReactJS</mark>
-        <mark>Ionic</mark>
-        <mark>Capacitor</mark>
-        <mark>Bootstrap</mark>
-        <mark>CSS</mark>
-      </li>
-
-      <li>
-        <strong>Development:</strong>
-        <mark>Github</mark>
-        <mark>Agile</mark>
-        <mark>Scrum</mark>
-        <mark>Kanban</mark>
-        <mark>OpenAPI</mark>
-      </li>
-
-      <li>
-        <strong>Containerization:</strong>
-        <mark>Docker</mark>
-        <mark>Kubernetes</mark>
-      </li>
-
-      <li>
-        <strong>Cloud:</strong>
-        <mark>Amazon Web Services</mark>
-        <mark>Google Cloud Platform</mark>
-        <mark>Heroku</mark>
-      </li>
-
-      <li>
-        <strong>Testing:</strong>
-        <mark>Selenium</mark>
-        <mark>JUnit</mark>
-      </li>
-
-      <li>
-        <strong>Monitoring:</strong>
-        <mark>Elastic Stack</mark>
-        <mark>Kibana</mark>
-        <mark>Prometheus</mark>
-        <mark>Grafana</mark>
-      </li>
-
-      <li>
-        <strong>Operating Systems:</strong>
-        <mark>MacOS</mark>
-        <mark>Linux</mark>
-        <mark>Bash</mark>
-        <mark>Terminal</mark>
-      </li>
-
-      <li>
-        <strong>Data:</strong>
-        <mark>Pandas</mark>
-        <mark>Seaborn</mark>
-        <mark>Scikit-Learn</mark>
-      </li>
-    </ul>
   </div>
 </template>
 
@@ -204,13 +110,5 @@
   height: 10em;
   padding: 1em;
   will-change: filter;
-}
-
-mark {
-  background-color: rgb(169, 169, 169);
-  line-height: 30px;
-  margin-left: 10px;
-  padding: 4px;
-  border-radius: 10%;
 }
 </style>
