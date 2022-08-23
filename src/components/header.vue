@@ -21,10 +21,11 @@
 <style scoped>
 .header-menu {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .header-item {
   margin-right: 10px;
+  font-size: 20px;
 }
 </style>

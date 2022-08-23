@@ -108,7 +108,6 @@
 <style scoped>
 .logo {
   height: 10em;
-  padding: 1em;
   will-change: filter;
 }
 </style>
