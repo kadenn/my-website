@@ -15,7 +15,7 @@
   </Head>
 
   <div>
-    <Header />
+    <Navbar />
     <RouterView />
   </div>
 </template>
@@ -23,6 +23,5 @@
 <script setup>
 // https://github.com/vueuse/head
 import { Head } from "@vueuse/head";
-import Header from "@/components/Header.vue";
-
+import Navbar from "@/components/Navbar.vue";
 </script>
