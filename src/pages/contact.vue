@@ -1,84 +1,71 @@
 <template>
   <div>
-    <div class="relative mx-auto max-w-xl">
-      <div class="text-center">
-        <h1>Contact Me</h1>
+    <div>
+      <h1>Contact Me</h1>
 
-        <p>
-          Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat
-          massa dictumst amet. Sapien tortor lacus arcu.
-        </p>
-      </div>
+      <p>
+        Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa
+        dictumst amet. Sapien tortor lacus arcu.
+      </p>
+    </div>
 
-      <div>
-        <form
-          method="POST"
-          name="contact-form"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          @submit.prevent="onSubmit"
-        >
+    <div>
+      <form
+        method="POST"
+        name="contact-form"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        @submit.prevent="onSubmit"
+      >
+        <div>
+          <label for="name">Name</label>
           <div>
-            <label for="name"> Name</label>
-            <div>
-              <input
-                required
-                novalidate
-                type="text"
-                name="name"
-                label="Name *"
-                placeholder="Your Name"
-                :stacked="true"
-                :disabled="loading"
-                v-model="form.name"
-              />
-            </div>
+            <input
+              required
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              :disabled="loading"
+              v-model="form.name"
+            />
           </div>
+        </div>
 
+        <div>
+          <label for="email">Email</label>
           <div>
-            <label for="email">Email</label>
-            <div class="mt-1">
-              <input
-                required
-                novalidate
-                type="email"
-                name="email"
-                label="E-Mail *"
-                placeholder="Your Email"
-                :stacked="true"
-                :disabled="loading"
-                v-model="form.email"
-              />
-            </div>
+            <input
+              required
+              type="email"
+              name="email"
+              placeholder="example@mail.com"
+              :disabled="loading"
+              v-model="form.email"
+            />
           </div>
+        </div>
 
+        <div>
+          <label for="message">Message</label>
           <div>
-            <label for="message">Message</label>
-            <div class="mt-1">
-              <textarea
-                rows="4"
-                required
-                novalidate
-                type="text"
-                name="message"
-                label="Message *"
-                placeholder="Your Message"
-                :stacked="true"
-                :disabled="loading"
-                v-model="form.message"
-              />
-            </div>
+            <textarea
+              required
+              rows="4"
+              type="text"
+              name="message"
+              placeholder="Your Message"
+              :disabled="loading"
+              v-model="form.message"
+            />
           </div>
+        </div>
 
-          <input type="hidden" name="form-name" value="contact-form" />
-
-          <div>
-            <button type="submit" :disabled="loading">
-              {{ loading ? "Submitting..." : "Submit" }}
-            </button>
-          </div>
-        </form>
-      </div>
+        <div>
+          <button type="submit" :disabled="loading">
+            {{ loading ? "Submitting..." : "Submit" }}
+          </button>
+        </div>
+      </form>
     </div>
   </div>
 </template>
