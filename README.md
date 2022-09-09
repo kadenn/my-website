@@ -25,10 +25,7 @@ npm run dev
 
 ## To Do
 
-- [ ] Create a landing page
 - [ ] Create a about me page
-- [ ] Create a my projects page
 - [ ] Create a blog page
 - [ ] Create header & footer components
-- [ ] Add a contact me button
 - [ ] Add a download resume button

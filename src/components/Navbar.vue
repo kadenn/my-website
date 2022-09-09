@@ -13,7 +13,7 @@
     </div>
 
     <div class="navbar-item">
-      <router-link to="/">Contact</router-link>
+      <a href="mailto:name@email.com">Contact</a>
     </div>
   </div>
 </template>
