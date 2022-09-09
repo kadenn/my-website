@@ -1,7 +1,5 @@
 # My Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9a4df6d5-65e1-4333-9f27-60e7acfd01f8/deploy-status)](https://app.netlify.com/sites/demirhindi/deploys)
-
 Thank you for checking out my website. Feel free to clone this repo and use it for anything.
 
 ## Features
@@ -26,6 +24,7 @@ npm run dev
 ```
 
 ## To Do
+
 - [ ] Create a landing page
 - [ ] Create a about me page
 - [ ] Create a my projects page

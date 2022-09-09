@@ -9,7 +9,6 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
     <meta property="og:image:alt" content="A cute turkey cartoon" />
-    <meta property="og:url" content="https://demirhindi.netlify.app/" />
     <meta property="og:description" content="My personal website" />
     <meta property="og:site_name" content="Kagan Demirhindi" />
   </Head>

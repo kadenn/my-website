@@ -13,7 +13,7 @@
     </div>
 
     <div class="navbar-item">
-      <router-link to="/contact">Contact</router-link>
+      <router-link to="/">Contact</router-link>
     </div>
   </div>
 </template>

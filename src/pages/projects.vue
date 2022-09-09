@@ -5,7 +5,7 @@
     <div>
       <div v-if="error" class="error">{{ error }}</div>
 
-      <div v-if="data" class="projects">
+      <div v-else-if="!isFetching" class="projects">
         <div v-for="project in data" :key="project.id">
           {{ project.name }}
         </div>
@@ -15,14 +15,13 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-
-const data = ref(null);
-const error = ref(null);
+import { useFetch } from "@vueuse/core";
 
 const url = "https://api.github.com/users/kadenn/repos";
-fetch(url)
-  .then((res) => res.json())
-  .then((json) => (data.value = json))
-  .catch((err) => (error.value = err));
+const { isFetching, error, data } = useFetch(url, {
+  initialData: { projects: [] },
+  refetch: true,
+})
+  .get()
+  .json();
 </script>
