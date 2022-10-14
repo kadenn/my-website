@@ -24,10 +24,3 @@ cd my-website
 npm install
 npm run dev
 ```
-
-## To Do
-
-- [ ] Create a about me page
-- [ ] Create a blog page
-- [ ] Create header & footer components
-- [ ] Add a download resume button
