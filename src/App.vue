@@ -24,4 +24,5 @@
 // https://github.com/vueuse/head
 import { Head } from "@vueuse/head";
 import Navbar from "@/components/Navbar.vue";
+import projects from "./pages/projects.vue";
 </script>
